@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<div *ngIf="$issues | async as issues">
+  <div *ngFor="let issue of issues; index as i" style=" margin:10px">
+    ({{ i + 1 }}):> {{ issue.title }}: <strong>{{ issue.state }}</strong>
+  </div>
+</div>
