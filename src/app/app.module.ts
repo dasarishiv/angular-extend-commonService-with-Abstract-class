@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 import { ApiService } from './api-service';
 import { RemoteApiService } from './remote-api.service';
 import { HttpClientModule } from '@angular/common/http';
